@@ -101,8 +101,47 @@ The different parts of a blockchain can be categorized into distinct layers, wit
 - Private blockchains are typically used within the internal network of an enterprise. They are designed for the specific needs of the organization and rely on trust among the employees or partners within that organization. Unlike public blockchains that are decentralized, a private blockchain is centralized because it is controlled by a single entity or a closed group.
 
 
+## What is a Public Blockchain?
+- A public blockchain, also referred to as permissionless blockchain, is a global and open network that operates in a decentralized manner. It allows anyone to participate in transactions, contribute to the consensus protocol, and review the contents of the blockchain.
+- One major benefit of a public blockchain is its **transparency**. Since anyone can join the network, it offers greater visibility into transactions and operations compared to private networks.
+- It is also **more decentralized** because no single entity has complete control over the entire system. This decentralization helps ensure the integrity and security of the blockchain.
+- Public blockchains can face challenges in terms of **transaction speeds and scalability**. Due to their openness and the involvement of a large number of participants, **processing transactions can take longer, and the network may struggle to handle a high volume of transactions**.
+- Despite these challenges, **public blockchains are resistant to censorship and external interference**. Because there is **no single point of failure or control**, it becomes difficult for any individual or entity to manipulate or disrupt the blockchain. This attribute enhances the trustworthiness and reliability of the system.
 
 
+## What is a Hybrid Blockchain?
+- A hybrid blockchain is a special type of blockchain that combines features from both public and private blockchains. It brings together the best of the two blockchain types to form a unique system.
+- Most blockchains are either public or private. There is currently a lack of hybrid blockchain solutions, which is a must for facilitating enterprise mass adoption.
+- In a hybrid blockchain, enterprises can decide which data (transaction) shall be posted from private blockchain to public blockchain. This flexibility allows them to control who can access specific data on the blockchain and decide which data should be made public.
+
+
+
+## Layer-1 Blockchain
+- A Layer-1 blockchain platform is the **basic infrastructure of all blockchain projects and applications**. It is like the operating system on a computer. The **whole ecosystem can only build and work on top of it**.
+- A Layer-1 blockchain is the **fundamental building block of a blockchain network**. It serves as the underlying protocol that forms the basis of the entire system. The primary purpose is to **securely record transactions** on a public ledger that cannot be modified or tampered with.
+- Layer-1 blockchains are considered the most basic form of blockchain technology. They are often called the **“core”** or **“foundation”** of the network because they **provide the necessary infrastructure for other applications and protocols to operate**. They play a crucial role in maintaining the distributed ledger, validating transactions, and protecting the network from any harmful activities.
+- In simpler terms, a Layer-1 blockchain is like the solid ground on which the entire blockchain network stands. It ensures that transactions are recorded accurately and securely, allowing other layers and applications to function effectively on top of it.
+
+
+## Layer-2 Blockchain
+- In simpler terms, Layer-2 networks are like an **extra layer built on top of an existing blockchain system**. They help increase transaction speed and capacity without needing to make significant changes to the main blockchain. The result is a more efficient and scalable blockchain network overall.
+- A Layer-2 network is a secondary protocol that is built on an existing Layer-1 blockchain system. **Its main purpose is to enhance the scalability of the underlying blockchain by handling a large number of transactions quickly**.
+- Popular blockchains like Ethereum have become increasingly popular due to their programmability and resistance to censorship, which allows for a wide range of products and use cases to be developed on them. However, Ethereum can only process a limited number of transactions per second, leading to congestion and high transaction fees.
+- Layer-2 protocols serve as a solution to this problem by creating an additional framework where transactions and processes can occur independently from the main blockchain. These protocols are often referred to as ***“off-chain”*** scaling solutions. They offer several benefits, including increased transaction throughput and reduced costs.
+- By offloading a significant portion of the workload to the second layer, the main chain can focus on providing security while the second layer achieves high transaction speeds. This means that hundreds or even thousands of transactions per second can be processed without compromising the network’s security.
+
+
+
+## Blockchain Wallet
+- A blockchain wallet represents a vital tool in the realm of cryptocurrency, **serving as a secure and anonymous digital wallet** that empowers users to effectively manage diverse forms of cryptocurrencies, such as Bitcoin, Ethereum, or QANX.
+- Its core purpose lies in **facilitating seamless fund exchanges**, ensuring both convenience and security. The **cryptographic signatures employed in transactions guarantee the integrity and protection of each transaction**. Accessible via web devices, including mobile platforms, this wallet upholds user privacy and identity confidentiality. By encompassing these essential features, a blockchain wallet establishes a robust framework for executing secure and trustworthy transfers and exchanges of funds among various parties.
+- The blockchain wallet itself can manifest in different forms, including internet-connected **“hot wallets” like MetaMask**, or **offline “airgapped”** hardware wallets.
+- From a technical standpoint, it is pertinent to view the wallet as the client responsible for managing the functionality, as opposed to being solely reliant on storing cryptographic keys.
+- In common practice, individuals frequently employ the term “wallet” to encompass their overall cryptocurrency portfolio, the associated accounts derived from it, or even an individual account.
+
+
+## Security of your Blockchain Wallet
+- By adhering to simple yet effective best practices, you can elevate the security of your crypto wallet and fortify the protection of your holdings. Some recommended measures include safeguarding your seed phrase, opting for cold wallets, utilizing multiple addresses, and exercising caution when dealing with tokens received through airdrops.
 
 
 
