@@ -142,7 +142,29 @@ The different parts of a blockchain can be categorized into distinct layers, wit
 
 ## Security of your Blockchain Wallet
 - By adhering to simple yet effective best practices, you can elevate the security of your crypto wallet and fortify the protection of your holdings. Some recommended measures include safeguarding your seed phrase, opting for cold wallets, utilizing multiple addresses, and exercising caution when dealing with tokens received through airdrops.
+- It is crucial to ensure the secure setup of your wallet.
+- Activating two-factor authentication (2FA) to your exchange account adds always an extra layer of protection.
+- By setting up your self-custodial wallet you can mitigate the risk of future hacks by using a freshly installed computer which was never connected to the internet before.
+- It is advisable to set up a **hardware wallet**. Hardware wallets are physical devices designed explicitly for storing cryptocurrencies securely offline. They are considered the most reliable type of crypto wallet.
+- It is recommended to use a unique and strong password specifically for your wallet to enhance security. When using a browser-extension wallet such as **MetaMask wallet**, it is important to note that the wallet may prompt you for your password frequently.
+- Accessing a wallet necessitates the provision of a unique and confidential 12-24-word seed phrase. The loss of this seed phrase results in the irretrievable loss of wallet access and the inability to recover your assets.
+- Your password and seed phrase remains unknown to any other individual, as anyone possessing it can gain unrestricted access to and control over your assets. Never share your seed phrase or your private keys with anyone!.
+- It is essential to exercise caution and refrain from engaging with randomly received tokens in your wallet address.
 
+
+
+## Address
+- ***A wallet address, which is also called as crypto address or blockchain address is a special combination of characters that acts as a representation of a wallet used to receive, store, send cryptocurrency. It’s like a real-life address, bank account, or an email address.***
+- Bitcoin addresses mostly start with a “1” or “3” and are typically 26–35 alphanumeric characters long. Ethereum and Binance Smart Chain addresses start with “0x,” followed by a string of 40 hexadecimal characters.
+- Addresses are created using a private key, which is also unique to the address. The digital assets held by the address can be accessed with the private key. Never share your private key with anyone!
+- Blockchain addresses are public and often called “public keys”. By using a blockchain explorer, you have the ability to observe the transactions linked to an address and check the number of assets it holds.
+- The person who owns an address usually doesn’t have their real name connected to it, and setting up a new wallet address on the blockchain doesn’t require any personally identifiable information.
+
+
+## Public and Private Keys
+- ***Public-key cryptography relies on two essential components: public keys and private keys, which function as its operational elements. Jointly, they facilitate the encryption and decryption processes for data circulating within a network. While the public key is openly accessible and can be distributed without limitations, it is crucial to safeguard the private key, ensuring exclusive knowledge limited to its rightful owner.***
+- A public key is a unique combination of letters and numbers used to encrypt messages into a secure form called **ciphertext**. It enables peer-to-peer **transactions without revealing private key details**, ensuring a safe exchange of assets and information without involving a third party.
+- When engaging in a transaction, a user shares their public key with the other party. They can make this key public for everyone to see. 
 
 
 
