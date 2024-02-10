@@ -1,6 +1,8 @@
 # Blockchain-concepts
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                            # BLOCKCHAIN BASICS
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## What Exactly is Blockchain?
 - Blockchain is a **tamper-proof distributed digital ledger**.
 - This digital ledger is safe, secure, transparent, and decentralized, which simply means that it is not controlled by a single authority.
@@ -132,6 +134,12 @@ The different parts of a blockchain can be categorized into distinct layers, wit
 
 
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                   # EVERYTHING ABOUT BLOCKCHAIN WALLET
+
+
+
 ## Blockchain Wallet
 - A blockchain wallet represents a vital tool in the realm of cryptocurrency, **serving as a secure and anonymous digital wallet** that empowers users to effectively manage diverse forms of cryptocurrencies, such as Bitcoin, Ethereum, or QANX.
 - Its core purpose lies in **facilitating seamless fund exchanges**, ensuring both convenience and security. The **cryptographic signatures employed in transactions guarantee the integrity and protection of each transaction**. Accessible via web devices, including mobile platforms, this wallet upholds user privacy and identity confidentiality. By encompassing these essential features, a blockchain wallet establishes a robust framework for executing secure and trustworthy transfers and exchanges of funds among various parties.
@@ -164,7 +172,151 @@ The different parts of a blockchain can be categorized into distinct layers, wit
 ## Public and Private Keys
 - ***Public-key cryptography relies on two essential components: public keys and private keys, which function as its operational elements. Jointly, they facilitate the encryption and decryption processes for data circulating within a network. While the public key is openly accessible and can be distributed without limitations, it is crucial to safeguard the private key, ensuring exclusive knowledge limited to its rightful owner.***
 - A public key is a unique combination of letters and numbers used to encrypt messages into a secure form called **ciphertext**. It enables peer-to-peer **transactions without revealing private key details**, ensuring a safe exchange of assets and information without involving a third party.
-- When engaging in a transaction, a user shares their public key with the other party. They can make this key public for everyone to see. 
+- When engaging in a transaction, a user shares their public key with the other party. They can make this key public for everyone to see.
+- Private keys, are secret keys used to access cryptocurrency funds. They correspond to specific public keys and are generated together using advanced encryption algorithms. This ensures that knowing someone’s public key doesn’t allow anyone to figure out their private key.
+- A private key is like a password or access code associated with a crypto wallet address. It encrypts transactions to prevent unauthorized access to assets.
+- In contrast, a public key decrypts the private key to authorize access. In the world of cryptocurrency, a public key is used to receive tokens, while a private key proves ownership of those tokens.
+- A private key enables the **digital signing of data**, such as a message indicating a payment from one address to another. In essence, a **transaction** is a **signed statement on the blockchain** that assigns coins to a new address.
+
+
+
+## Seed Phrase
+- ***The seed phrase, which is also called a "key phrase, recovery phrase or mnemonic phrase", consists of a sequence of 12 to 24 words created by your cryptocurrency wallet. It acts as a "master password", granting access to the crypto linked to that wallet. Imagine the wallet as a password manager for your cryptocurrencies and the seed phrase as the ultimate key.***
+- As long as you possess your seed phrase, you can access all the crypto associated with the wallet, even if you lose or delete the wallet itself.
+- The seed phrase is created by the wallet’s software using a random set of words obtained from the private key of the wallet. The same set of words in the same order always generate the same number. It’s essential to keep a secure record of the seed phrase. If the user loses access to their wallet, the seed phrase can be entered into any **BIP39-compatible wallet** to recover the funds.
+-  Seed phrases are not specific to any particular cryptocurrency. The same seed phrase can be used across numerous wallets, enabling the user to recover an entire portfolio of coins and tokens using a single seed phrase. Most popular wallets offer the option to recover funds using a seed phrase as long as it has been accurately recorded.
+
+
+
+## Types of Blockchain Wallet
+Blockchain wallets can be classified into two distinct categories: **Custodial or Self-custodial wallets**, and further categorized as **Hardware or Software wallets**.
+
+- **Custodial wallets**, like centralized exchanges, do not provide users with direct access to their private keys. Instead, a **trusted third-party securely manages and protects the seed phrase on behalf of the user**.
+- **Self-custodial wallets** grant users **full control over their private keys**. When setting up such a wallet, you will be provided with your seed phrase. Once you unlock a self-custodial wallet, you have complete ownership and control over your cryptocurrency.
+- **Cold wallets** are offline **Physical hardware wallets**. They offer the highest level of security when it comes to storing cryptocurrencies. Some hardware wallets can be connected to the internet through physical or software means, while others are “air-gapped,” meaning they receive transaction requests and provide approvals through methods like QR codes.
+- **Hot wallets**, or so called **Software wallets** are digital wallets connected to the internet. They are less secure than cold wallets because they are vulnerable to hacking.
+  - **Web wallets** can be accessed through a web browser. They offer convenience, but they can be riskier since the management of private keys is often entrusted to third parties.
+  - **Desktop wallets** are "software programs". They need to be downloaded and run on the user’s computer. They are less convenient than web wallets but offer more security because the private keys are stored locally and managed by the users themselves. It is important to use desktop wallets only on clean computers without any virus or malware infections.
+  - **Mobile wallets** share similarities with desktop wallets in terms of functionality and purpose, but they are specifically designed for the use on smartphones. They utilize QR codes, making it easy to send and receive cryptocurrencies.
+
+
+
+
+
+## Exchange Wallet
+- The primary distinction between a self-custodial cryptocurrency wallet and an exchange wallet lies in the management of private keys.
+- **“Not your keys, not your coins” is a popular expression in the world of blockchain. In exchange wallets, like those provided by **centralized exchanges (CEXs)**, the exchange has control over your private keys, similar to how banks hold your funds. With a self-custodial wallet, you have full control and ownership of your private keys.**
+- When you make a purchase on a centralized cryptocurrency exchange, the acquired cryptocurrency is typically stored in the exchange’s wallet, which is both custodial and in most cases also “hot.” This means the exchange holds your private keys, and the wallet is connected to the internet. It is crucial to trust the exchange you use to safeguard your crypto in such cases.
+- Exchange wallets are often considered less secure compared to self-custodial wallets. With an exchange wallet, you must trust the centralized exchange (CEX) to protect your funds. Additionally, since exchanges hold a large amount of digital assets, they become attractive targets for hackers.
+
+
+ 
+## How to check the balance of your wallet address?
+- If you use a custodial wallet, such as an exchange wallet, you can conveniently access your account balance by visiting the exchange’s website. If you use a self-custodial wallet, you can check the balance of your address on a blockchain explorer or in your wallet.
+- Since blockchain addresses are public, the easiest way to check the balance of your wallet address — if you don’t store your cryptocurrency on a centralized exchange — is to copy and paste your wallet address into a blockchain explorer.
+- If you have **ERC-20 tokens** (tokens on the Ethereum network), you shall use **etherscan.io**. If you have **BEP-20 tokens** (tokens on the Binance Smart Chain), you shall use **bscscan.com** to view your balance.
+- In addition, you can also review your holdings within your hardware or software wallet.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                              # Coins and Tokens Types
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                              
+## Coin 
+- Coins are native cryptocurrencies that operate on their own dedicated blockchains, functioning independently from other cryptocurrencies, blockchains, or platforms. Examples of coins include ETH (Ethereum), BTC (Bitcoin), and BNB (Binance Smart Chain).
+- Coins primarily function as a medium of exchange and store of value. They are designed to be used as digital currencies for transactions and may have broader acceptance as a form of payment.
+- Native coins are essential for the functioning of their respective blockchain networks. Native coins are used to pay for transaction fees, facilitate transactions, and incentivize network participants. Just as fuel powers a car’s engine, native coins power the operations and activities within a blockchain ecosystem.
+
+
+
+## Token
+- Tokens encompass a broader category that includes various digital assets within specific platforms. Tokens are typically built and operate on existing blockchain platforms like Ethereum or Binance Smart Chain, utilizing their infrastructure, protocols, and standards.
+- Although the terms “token” and “coin” are frequently used interchangeably within the cryptocurrency realm, they possess separate definitions that can vary depending on the context.
+- Remember, to engage in transactions involving tokens issued on a particular blockchain, it is necessary to possess the native cryptocurrency (coin) of that blockchain. This requirement arises because transaction fees, which are incurred when conducting transactions, must be paid using the native coin of the blockchain.
+- Tokens often adhere to specific token standards defined by the blockchain platform they are built on, providing guidelines for their functionality and interoperability.
+- Popular token standards or protocols on the Ethereum blockchain are for example **ERC-20** (most widely adopted token standard for fungible tokens), **ERC-721** (*token standard for NFTs*), **ERC-1155** (hybrid token standard for fungible and non-fungible tokens within the same smart contract).
+
+
+
+## Tokens Types
+- Tokens are primarily classified based on their functionality. The two primary categories are **utility tokens** and **security tokens**.
+- Tokens can also be classified based on their features as either fungible or non-fungible.
+- **Fungible tokens**, similar to dollar bills, can be exchanged with other tokens of the same value without any distinction. Each unit holds the same purpose.
+- **Non-fungible tokens**, like unique pieces of art, have distinct properties, and each unit must be treated separately.
+
+
+## Utility Token
+- **The primary purpose of utility tokens is to enable users to access and utilize specific features, products, or services offered by a blockchain-based platform or application. Utility tokens are created on a blockchain and are specific to the platform they are used on.**
+- Utility tokens frequently function as a **medium of exchange or transaction within the platform**, enabling users to make payments for goods, services, or access privileges. They encompass a range of functionalities, including but not limited to:
+  1. payment for services or transactions within the platform’s ecosystem,
+  1. access to restricted areas, premium content, or exclusive features within a platform,
+  1. interact with decentralized applications (dApps) or access specific functionalities like voting, staking, or participating in governance mechanisms,
+  1. loyalty rewards, incentivizing users to engage with a platform by offering benefits, discounts, or bonuses, etc.
+- Utility tokens are primarily designed for functional purposes, their value can still be subject to changes based on the dynamics of supply and demand.
+- Utility tokens are generally not promoted or sold as investment opportunities since they do not represent ownership or provide profit-sharing rights in the same manner as security tokens.
+
+
+## Security Token
+- ** A security token is a digital form of traditional securities, including equities, debt, or a hybrid of both. Examples of traditional securities include stocks, bonds, ETFs, options, and futures. These securities can be tokenized to become security tokens, allowing them to be traded digitally.**
+- Security tokens are **financial assets** that mirror the characteristics of traditional securities. For instance, during an **Initial Coin Offering (ICO)**, a company could issue tokenized shares that provide ownership rights and dividends to the holders. Legally, these tokenized shares are equivalent to traditionally-distributed shares.
+- Individuals who own security tokens can benefit from the token’s performance and may also receive dividends in the form of additional tokens. They may also enjoy other advantages, such as voting power. In this way, security token holders can enjoy similar benefits to those provided by stocks and other securities.
+
+
+## Stablecoin
+- Stablecoins are cryptocurrencies designed to retain a consistent value over time, **typically linked to prominent *fiat currencies*** such as the U.S. dollar, a collection of fiat currencies, or even valuable commodities like precious metals. The purpose of stablecoins is to minimize price volatility so their value doesn’t fluctuate significantly.
+- These coins are backed by an underlying asset, typically the one they represent digitally, in order to maintain a stable price similar to traditional fiat currencies.
+- There are four main types of stablecoins:
+  1. ***Fiat-collateralized stablecoins***, such as **USDT, USDC, and BUSD**, which are backed by reserves of fiat currency.
+  2. ***Commodity-collateralized stablecoins***, like **DigixGlobal**, which are backed by commodities like gold.
+  3. ***Crypto-collateralized stablecoins***, such as **MakerDAO’s Dai token**, which are *backed by other cryptocurrencies*.
+  4. ***Non-collateralized stablecoins***, which use algorithms to control the token supply and maintain a fixed price. These coins adjust their circulating supply based on market conditions.
+
+ 
+     
+## Asset-Backed token
+- **Asset-backed tokens are digital tokens that serve as representations of real-world assets such as gold, crude oil, real estate, equity, and soybeans. The value of these tokens is directly linked to the value of the underlying physical asset they represent. These tokens are typically classified as securities by financial regulators.**
+- Asset-backed tokens provide an alternative financial option that combines digital liquidity with the value of tangible assets, offering a solution to problems caused by unstable currencies or unpredictable stock markets. They enable investors to store value independent of traditional fiat currencies that are prone to inflation.
+- When you own an asset-backed token, it means you have a claim on the corresponding physical asset.The tokens allow for the transfer of ownership without the need to physically move the assets, making transactions more efficient and cost-effective.
+- Businesses can use asset-backed tokens to raise capital by offering them as equity instruments, following financial regulations. Alternatively, existing assets can be tokenized and sold to individual investors, offering them the opportunity to invest in real-world assets without the hassle of physical storage or exchange. This reduces trade friction and logistics costs.
+
+
+
+## Governance Token
+- **Governance tokens are tokens specifically designed by developers to enable token holders to actively contribute to the development and decision-making processes of a protocol or project. Organizations that embrace user control are often referred to as decentralized autonomous organizations (DAOs).**
+- In the context of DAOs and decentralized finance (DeFi), governance tokens provide a more fair, decentralized, and transparent approach to governance. These systems utilize smart contracts to execute actions based on predefined conditions, creating trustless environments for transactions and information sharing. Through governance tokens, members of DAOs and DeFis can have an equal say in the decision-making process.
+- Some governance tokens focus on voting for specific governance issues, while others cover a broader range of decisions.
+
+
+## Non-Fungible Token (NFT)
+- **A Non-Fungible Token (NFT) is a virtual token that provides verifiable proof of authenticity and ownership of a specific asset using cryptography.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -196,7 +348,7 @@ The different parts of a blockchain can be categorized into distinct layers, wit
 ## Binomial Random Walk
 ## Gambler's Ruin Problem
 ## Poisson Distribution
-
+## what is Fiat Currency?
 
 ## Encrytion
 
