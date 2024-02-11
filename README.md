@@ -290,11 +290,59 @@ Blockchain wallets can be classified into two distinct categories: **Custodial o
 
 ## Non-Fungible Token (NFT)
 - **A Non-Fungible Token (NFT) is a virtual token that provides verifiable proof of authenticity and ownership of a specific asset using cryptography.**
+- NFTs are primarily recognized for their association with virtual art pieces, but their utility extends beyond that. NFTs can be used to represent a wide range of assets, including: real estate, domain name, event ticket, intellectual property, luxury watches, etc.
+- Tokens can be unique and not interchangeable, especially when they represent digital proof of ownership of assets.
+- An NFT is a virtual token that provides verifiable proof of authenticity and ownership of an asset using cryptography. For instance, if you own a virtual piece of art, you can create an NFT to tokenize that artwork, and the NFT will reflect your ownership of the unique artwork. The NFT is stored on the blockchain as proof of your ownership.
+
+
+
+## Fake Token
+- Similar to the existence of replica luxury watches or bags, the cryptocurrency market also has its share of counterfeit tokens.
+- Scammers create fake tokens that look similar to popular ones, tricking users who are unaware of such scams.
+
+
+
+## Testnet Token
+- **Testnets are available for every available blockchain platform, providing a trial version for testing purposes. As the name implies, testnet tokens are a unique form of cryptocurrency that is specifically created for the purpose of testing.**
+- Testnet tokens are used to try out new features and functionalities without risking tokens with real value. They provide a safe way to learn about blockchain technology without the fear of losing actual funds.
+- It’s important to note that testnet tokens have no real value. They are solely intended for testing and development purposes, not for actual transactions. Tokens created on testnets cannot be exchanged for their equivalent value on the main network.
+
+
+### How to get Testnet Token?
+- Testnet tokens can be obtained at no cost through dedicated online faucets designed for each testnet. Simply provide your preferred wallet address, and within minutes, the testnet token will be deposited into your designated wallet address.
+- As a first step, it is indeed recommended to generate a new address in your self-custodial wallet (or even a new wallet on a separate device), such as MetaMask, specifically for testing purposes. Creating a separate address for testing helps maintain the separation between your actual funds and any tokens or transactions used during testing.
+- The next step is to obtain testnet tokens. You can either mine testnet tokens or request them from testnet faucets. These faucets are online services established by individuals or organizations that have spare testnet coins.
+- Example: You can acquire testnet ETH for the Ethereum Testnet called Goerli. Nevertheless, there exist numerous alternative methods to obtain testnet tokens.
+- After obtaining your testnet address and tokens, you can begin making transactions. Ensuring the use of the appropriate network when sending and receiving tokens is crucial.
+- Utilize the testnet network: Now that you have your testnet wallet and tokens, you can start utilizing the testnet. This provides you with the opportunity to explore and test new features and applications before implementing them on the main network.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         # BLOCKCHAIN TRANSACTION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Centralised Exchange (CEX)
+- ***Centralized Exchanges (CEXs) e.g. Binance or Coinbase are platforms very similar to traditional trading platforms — e.g. eToro or Robinhood — that facilitate trades between users by maintaining an order book containing buy and sell orders from individual traders. These orders are requests made by individuals to buy or sell a certain amount of cryptocurrency at a specific price. CEXs gather and combine these orders from users, utilizing specialized software to match and complete the corresponding buy and sell transactions.***
+- In Centralized Exchanges (CEXs), users don’t directly exchange cryptocurrencies or fiat currencies with each other. Instead, when users deposit funds onto an exchange, the exchange takes custody of those assets and provides users with **IOUs (I Owe You)** in return. These IOUs represent the ownership of the assets within the exchange’s system and are internally tracked as they change hands in trades. The conversion into actual currency or cryptocurrency occurs when users withdraw their funds from the exchange.
+- It’s important to note that although centralized exchanges provide a service for buying, selling, and trading digital assets, they deviate from the principles of decentralization. These exchanges are operated by specific companies and retain custody of users’ funds.
+- In exchange wallets, like those provided by centralized exchanges (CEXs), the exchange has control over your private keys, similar to how banks hold your funds. As a result, some users may prefer decentralized exchanges, which allow them to have complete control over their digital assets and transaction data.
+
+
+
+## Decentralised Exchanged
+- **Decentralized Exchanges (DEXs) e.g. Uniswap or PancakeSwap are platforms where cryptocurrencies are exchanged using functionality programmed on the blockchain, particularly in smart contracts. Trading on DEXs occurs directly between users or liquidity pools, unlike centralized exchanges that resemble banks or investment firms specialized in cryptocurrencies.**
+- When trading cryptocurrency, people typically rely on centralized exchanges (CEXs). These exchanges match buyers with sellers, similar to how securities exchanges operate.
+- However, there are perceived downsides associated with traditional centralized exchanges. Firstly, these platforms are privately owned, which means there’s a third party involved in every transaction. These private companies have control over the transactions and collect customer information, which challenges the idea of cryptocurrency’s potential for anonymity.
+- Transactions on centralized exchanges are custodial, meaning the exchange holds the assets being traded. Decentralized exchanges address these issues by offering greater anonymity and non-custodial transactions. This means that assets are never held by an intermediary during the exchange process.
+- DEX platforms eliminate the need for intermediaries and conduct trades within a trustless automated environment based on smart contracts. While decentralized exchanges are less susceptible to cyber-attacks and infrastructure downtime, they cannot provide services involving fiat currency, such as fiat/crypto trading or fiat withdrawals/deposits.
 
 
 
 
-
+## Transaction(tx)
+- **A cryptocurrency transaction (tx) refers to the process of transferring or swapping (trading) cryptocurrencies within a blockchain. During a transaction, the details are recorded on the blockchain.**
 
 
 
