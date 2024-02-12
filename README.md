@@ -343,24 +343,92 @@ Blockchain wallets can be classified into two distinct categories: **Custodial o
 
 ## Transaction(tx)
 - **A cryptocurrency transaction (tx) refers to the process of transferring or swapping (trading) cryptocurrencies within a blockchain. During a transaction, the details are recorded on the blockchain.**
+- Cryptography is used to **encrypt the transaction data and the ledger**, ensuring its security. Unlike traditional fiat money, crypto transactions are decentralized, meaning they are **not regulated or controlled by a central bank or authority**.
+- Peers engage in transactions using crypto wallets, where the sender transfers funds from their public address to another account.
+- **To complete a transaction, the private key is required. Multiple transactions are grouped together into blocks and added to the blockchain. This task is typically performed by miners or validators**.
+- The time it takes for a transaction to be recorded on the blockchain can vary depending on the network and the transaction fee paid. Transactions can be instant or take a few minutes to process. To check the status of a transaction, one can use the **block explorer of the specific cryptocurrency**.
+
+###### What's happening in the background during a transaction on a blockchain
+The transaction process can be divided into six steps:
+1. A request for a transaction is made involving cryptocurrencies, contracts, records, or other information.
+2. The **transaction is broadcasted** to all participating computers in the blockchain network, known as nodes. It is then considered “pending” and stored in the memory pool (Mem-pool).
+3. Miners/validators verify the transaction by checking it against validation rules set by the creators of the blockchain network.
+4. Validated transactions are stored in a block and **sealed with a lock called the hash**.
+5. The new block is added to the existing blockchain, and other computers in the network validate the correctness of the block’s lock.
+6. The transaction is complete, and it becomes a permanent part of the blockchain, unable to be altered.
 
 
 
+## Transaction Hash(TxHash) / transaction ID (TxID)
+- **A transaction hash (TxHash) or also known as transaction ID (TxID) is a special number assigned to each transaction that happens on a blockchain, which helps to uniquely identify and track that specific transaction**.
+- The transaction hash consists of a string of letters and numbers.Example of a transaction hash (TxHash): 0x2cebc154c6c107116a77646ca23d23de86379fb0f6983695463336080f3f9476
+- It acts as a special code that **uniquely identifies the transaction**. **With a transaction hash, you can retrieve information about the transaction, such as the amount of tokens sent, the amount payed for the transaction, the date of the transfer, the sender and recipient addresses, and the number of confirmations on the blockchain**.
+
+##### Steps to find the Hash of the Transaction 
+1. Open the cryptocurrency wallet.
+2. In the list of completed (if you have any), locate the transaction you are interested in.
+3. Click on the transaction hash (TxHash) / transaction ID (TxID).
+4. You will see the transaction hash (TxHash) / transaction ID (TxID) along with all the details of the transaction.
+5. Open a dedicated block explorer like *etherscan.com or bscscan.com* to check the status of the transaction by entering the TxHash.
 
 
 
+## Block Explorer
+- **Block explorer, also known as blockchain explorer, is a *graphical user interface of a blockchain*. A blockchain explorer is directly connected to a particular blockchain and enable users to view and query data like blocks, transactions, addresses, address history, address balance, etc.
+- Blockchain explorers like *etherscan.io (for Ethereum) or bscscan.com (Binance Smart Chain)* play a crucial role in the blockchain ecosystem, since without them most users won’t be able to view and query blockchain data.
+- Blockchain explorers are mostly used by users to check address balance, transaction history, or transaction confirmation. However blockchain explorers provide data about network statistics, block information, token and contract information, and many more.
 
 
 
+## Transaction Fee / Gas Fee
+- **Similar to a bank transfer, cryptocurrency transfers also incur transaction fees that need to be paid in the blockchain’s native coin. When you transfer a certain amount of cryptocurrency from one wallet to another, you need to pay a transaction fee. This fee is not fixed and can vary depending on the level of activity on the blockchain.**
+- On cryptocurrency exchanges, most transaction fees are predetermined and cannot be adjusted. However, if you are using a cryptocurrency wallet, you may have the flexibility to modify the fee.
+- Transactions with higher fees are given priority in cryptocurrency networks. Therefore, some users may choose to increase the fee if they need their transaction to be processed promptly.
+- *In Ethereum, for example, **transaction fees are measured in gas**, which is a small fraction of ETH (Ethereum’s native cryptocurrency). The gas price represents the amount of ETH (measured in gwei) that needs to be paid to miners for processing transactions. **One gwei is equivalent to 0.000000001 or 10–9 ETH**.*
+- Transaction fees are calculated based on the gas value at the time of the transaction. There are two components associated with it:
+  1. Gas limit
+  2. Gas price.
+  The gas limit protects against unintended expenses and prevents the network from becoming too congested. The transaction fee (TX) is determined by multiplying the gas limit with the gas price.
+- These fees are utilized to compensate network validators or miners for their contribution to maintaining the consensus of the blockchain network. This ensures the sustainability of the network.
+
+
+## How to Reverse a Cryptocurrency Transaction
+- Once a cryptocurrency transaction is verified, it becomes immutable and cannot be altered or reversed. It is impossible to cancel, modify, or undo a transaction once it has been recorded and confirmed.
+- When a transaction occurs, it is verified and secured by network participants, often referred to as validators or miners. They validate the transaction data and ensure its accuracy.
+
+
+## Transfer Tokens between two addresses
+- *Transferring tokens is a straightforward process, similar to a regular bank transfer. You only need to input or copy the recipient’s wallet address and the amount you wish to send. Just ensure that you have sufficient funds in the network’s native utility coin to cover the transaction fee*.
+- There are two primary locations from which you can send tokens: a wallet offered by a **Centralized Exchange (CEX) such as Binance or Coinbase**, or a *self-custodial wallet*, which can be a **software wallet like MetaMask or a hardware wallet like Trezor**.
+- Remember these points when sending crypto:
+  1. Once a cryptocurrency transaction is verified, it becomes immutable and cannot be altered or reversed. It is impossible to cancel, modify, or undo a transaction once it has been recorded and confirmed.
+  2. Similar to a bank transfer, cryptocurrency transfers also incur transaction fees that need to be paid in the blockchain’s native coin.
+  3. It’s important to ensure that you send the corresponding cryptocurrency to the correct address. For instance, send Bitcoin to a Bitcoin address and Ethereum to an Ethereum address. Each type of cryptocurrency has its own specific address.
+  4. After your transaction has been validated and approved, the cryptocurrency will be visible in the recipient’s account. This confirmation process can take a few seconds to a few minutes.
 
 
 
+## Tansaction Time
+- *Transactions per second (TPS) represents the ability of a blockchain to manage a specific quantity of transactions in a single second. The time it takes for a transaction to be recorded on the blockchain depends on the network and the transaction fee paid. A transaction example on the Ethereum network can take anywhere from 15 seconds to 15 minutes*.
+- A transaction can be instant, or it might take a few minutes to go through. In busy periods, it could even take even an hour.
+- *Bitcoin transactions typically require approximately 10 to 30 minutes to be fully completed*. Sometimes, you may have to wait for hours before a transaction on the Bitcoin blockchain is completed. Each time a new transaction is verified and added to a new block, it counts as one confirmation. After an average of 10 minutes, another block will include that transaction, making it two confirmations. Some services require only one confirmation, while others, like exchanges, may require 3 or more confirmations for Bitcoin (BTC) transactions.
 
 
+## How to know if a Transaction was Successful?
+- You have various options to monitor and see how your transactions are progressing. You can use tools such as a **full node, a wallet, or websites called blockchain explorers**. These tools help you keep an eye on the status and progress of your transactions.
+- If you want to be sure of the success of a particular transaction, you can copy-paste the transaction ID (TXID) to the specific blockchain explorer to see its status.
+- If you don’t have your TXID, you can copy-paste your wallet address to the particular blockchain explorer and search for the transaction in the ‘Transactions’ or ‘Token Transfers’ tab.
 
 
+## How to check Transaction History?
+- *Block explorers act as gateways for accessing and reading all the transactions recorded on a blockchain. They allow you to view the balance of each address and access detailed information about each transaction.*
 
+-> **How to check cryptocurrency transaction history on a Centralized Exchange (CEX):** Each CEX provides you with a transaction history for deposits, trades, and withdrawals.
 
+-> **How to check cryptocurrency transaction history on the blockchain:**
+- You can review your wallet address transaction history in your self-custodial wallet like MetaMask, or you can utilize a blockchain explorer.
+- By simply copying and pasting your wallet address into the specific blockchain explorer, you can view your transactions for each address. If you have ERC-20 tokens (tokens on the Ethereum network), you should use etherscan.io. If you have BEP-20 tokens (tokens on the Binance Smart Chain), you should use bscscan.com to view your balance.
+- To view the transaction history of a specific address, use the ‘Transactions,’ ‘Internal Transactions,’ ‘Token transfers,’ or ‘NFT Transfers’ tabs on the blockchain explorer.
 
 
 
