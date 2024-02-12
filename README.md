@@ -432,6 +432,71 @@ The transaction process can be divided into six steps:
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                    # Consensus Algorithm
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Consensus Algorithm
+- **A consensus algorithm, also known as consensus mechanism or consensus protocol is a set of rules in the blockchain to achieve agreement in the decentralized network among participants on the validity of blocks, transactions and the order in which they are added to the blockchain. Consensus algorithms play a crucial role in ensuring the integrity and security of the blockchain.**
+- A consensus algorithm ensures that everyone agrees on decisions while using as few resources as possible. This keeps the system honest and transparent. It lays out the conditions that nodes and validators must meet in order to add new blocks to the blockchain.
+- The first consensus mechanism, called **Proof-of-Work (PoW)**, was created for the Bitcoin blockchain. Bitcoin inspired developers to explore blockchain technology further, leading to the emergence of new consensus mechanisms. Each consensus mechanism focuses on a specific requirement, such as *work, stake, or authority*, to ensure agreement and validate transactions and blocks.
+- Consensus mechanisms are crucial for the proper functioning of any blockchain system. They make sure that all nodes work together and follow the same rules. Additionally, they provide security for blockchain users.
+- For a transaction to be successfully recorded on the ledger and added to a block, consensus must be reached among all nodes. The responsibility is shared among node operators, ensuring that the consensus mechanism continues to work even if some nodes fail to perform their tasks.
+
+
+## Blockchain Trilemma
+- **The idea of the blockchain trilemma, introduced by *Vitalik Buterin(Ethereum Founder)*, highlights three main obstacles that developers face when constructing blockchains: decentralization, security, and scalability. They often have to make trade-offs by sacrificing one aspect to accommodate the other two.**
+- *Typically, decentralized networks can only prioritize two out of the three benefits at any given time*. These benefits include ***decentralization***, which ensures that control over the network is evenly distributed among participants; ***security***, which involves robust defenses against malicious entities; and ***scalability***, which pertains to the capacity of managing a high volume of transactions and users without compromising transaction times and fees.
+- Fortunately, ongoing innovation within the decentralized ecosystem has led to various Layer-1 and Layer-2 solutions that are overcoming these obstacles and aiming to solve the trilemma once and for all. *Developers are exploring different consensus mechanisms and scalability solutions like sharding, sidechains, and state channels*.
+- The blockchain trilemma acknowledges the challenge of attaining ideal levels of all three properties at the same time. When one aspect is increased, another is often weakened. This poses a difficulty in scaling blockchains while upholding both decentralization and security.
+
+
+
+## Types of Consensus Algorithm
+Blockchain technology utilizes various methods, called consensus algorithms, to achieve agreement in the decentralized network among participants. Each consensus mechanism focuses on a specific requirement, such as work, stake, or authority, to ensure agreement and validate transactions and blocks. In addition to the two most widely used and known PoW and PoS consensus algorithms, more and more new consensus mechanisms are appearing on the market, which try to overcome the limitations of the older consensus protocols.
+
+1. ***Proof of Work (PoW):***
+   - This algorithm is known for its high demand for computing power and is often seen as inefficient, however it is considered as the most decentralized one.
+   - Miners utilize their computational power to solve complex mathematical problems, which aids in the verification of transactions and the creation of new blocks in the blockchain.
+2. ***Proof of Stake:***
+   - Instead of relying on computational power, PoS involves staking coins in a wallet or a smart contract.
+   - Nodes that have staked their coins have a say in achieving consensus. This method is often considered less decentralized compared to PoW.
+   - Ethereum is shifting from Proof of Work to Proof of Stake to increase energy efficiency. Those have more then 32 ETH can do Mining.
+3. ***Delegated-Proof-of-Stake (DPoS):*** DPoS is similar to PoS but with a different approach. It is not completely decentralized. Stakers don’t directly validate blocks; instead, they choose delegates who handle the transaction validation.
+4. ***Proof-of-Authority (PoA):*** PoA is used in entirely centralized systems. Pre-approved accounts chosen by system administrators perform the validations across the network. It is frequently employed in private blockchains.
+5. ***Proof-of-Randomness (PoR):*** QANplatform developed a new consensus algorithm that consumes considerably less energy and yet remains democratic. QANplatform leverages the Proof-of-Randomness (PoR) consensus protocol which possesses inherent verifiable pseudorandomness. As a result of its streamlined consensus protocol, there is no need for complex mathematical computations that require large amounts of energy.
+
+There are several other consensus algorithms like Byzantine Fault Tolerance (BFT), Direct Acyclic Graph (DAG), Proof-of-Capacity (PoC), Proof-of-Burn (PoB), Proof-of-Elapsed-Time (PoET), and many more.
+
+
+
+## Proof of Authority (PoA) Consensus Algorithm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
