@@ -471,7 +471,8 @@ There are several other consensus algorithms like Byzantine Fault Tolerance (BFT
 
 
 ## Proof of Authority (PoA) Consensus Algorithm
-
+- **Proof-of-Authority (PoA) operates in a comparable way to Proof-of-Stake (PoS) in terms of block validation on a technical level. However, there is a significant difference that sets them apart. While PoS assigns a validator’s queue and importance based on the tokens they have staked, PoA assigns a validator’s queue based on their predetermined identity and reputation.**
+- PoA is an alternative consensus mechanism that relies on trusted and reputable validators to generate blocks and contribute computational power to a network.
 
 
 
