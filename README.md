@@ -473,7 +473,51 @@ There are several other consensus algorithms like Byzantine Fault Tolerance (BFT
 ## Proof of Authority (PoA) Consensus Algorithm
 - **Proof-of-Authority (PoA) operates in a comparable way to Proof-of-Stake (PoS) in terms of block validation on a technical level. However, there is a significant difference that sets them apart. While PoS assigns a validator’s queue and importance based on the tokens they have staked, PoA assigns a validator’s queue based on their predetermined identity and reputation.**
 - PoA is an alternative consensus mechanism that relies on trusted and reputable validators to generate blocks and contribute computational power to a network.
+- PoA is specifically designed for enterprises, private organizations, consortia that want to establish their own blockchain networks with limited participation. Since PoA networks are permissioned, they don’t require traditional “mining” activities. However, network participants can still enhance redundancy by running multiple nodes under the same identity.
+- This particular consensus mechanism does not demand a significant amount of resources, but it does require validators to uphold the integrity of their nodes. It can be seen as a mechanism that incentivizes honest behavior and ensures the proper functioning of the network by holding user identity and reputation at stake.
 
+
+
+## Proof of Work (PoW)
+- **The famous crypto words like *“mining,” “mining farm,” and “mining rig”* are all related to the *Proof-of-Work (PoW)* consensus mechanism. PoW is a widely adopted consensus algorithm in the realm of blockchain networks, and it is notably exemplified by Bitcoin, and the previous version of Ethereum.**
+- In the Proof of Work (PoW) consensus algorithm, miners engage in a competition to solve intricate mathematical puzzles. By doing so, they validate transactions and incorporate them into the blockchain. The miner who successfully solves the puzzle first is granted a specific quantity of cryptocurrency as a reward.
+- The purpose of PoW is to establish a secure and decentralized system that is resistant to manipulation and attacks. When miners want to add a new block to the blockchain, they must invest a significant amount of computing power and energy to solve the associated mathematical puzzle. This ensures the security of the blockchain and prevents malicious individuals from tampering with it.
+- PoW is often referred to as the original consensus mechanism in the blockchain world (because Bitcoin use Proof of Work).
+- *The Proof-of-Work (PoW) consensus mechanism, while effective in maintaining blockchain security, is burdened by its substantial energy consumption. Bitcoin alone is estimated to consume 127 terawatt-hours (TWh) a year — more than many countries, including Norway*.
+
+
+## Proof of Stake (PoS)
+- **Instead of requiring miners or validators to use computationally intensive infrastructure, Proof-of-Stake (PoS) is a consensus algorithm that selects block validators based on their ownership stake in the network. The stake weight is determined by factors such as the quantity of tokens staked and the duration of staking.**
+- In PoS, there is no competition among computers to generate a suitable hash. Instead, the protocol focuses on participation based on the ownership of the coin supply. Currency power replaces computational power in PoS, so the ability to validate transactions depends on a user’s stake in the network.
+- It’s worth noting that PoS systems don’t involve traditional miners. Instead, validators are *selected randomly based on their stake*.
+- Validators do not receive rewards for validating blocks but may earn transaction fees or network fees. They take on the responsibility of validating transactions, signing them, and proposing blocks for validation. All of this occurs seamlessly through smart contracts, eliminating the necessity for physical signatures or “human touch”.
+- **The term “staking” refers to validators committing their funds to the system. Validators can participate in producing new blocks only if they lock their coins. For example, a validator with a stake of 10% of the coins will only be able to validate 10% of the blocks.**
+- The locked funds act as collateral, meaning that malicious validators are likely to lose their stake and be expelled from the network. In contrast, honest validators are rewarded as new blocks are forged. This implies that in a Proof-of-Stake (PoS) blockchain, consensus is achieved by considering the economic stake that validators contribute to the network.
+
+
+## Proof of Randomness (PoR)
+- QANplatform developed a new consensus algorithm that consumes considerably less energy and yet remains democratic. Thanks to the PoR consensus algorithm, validation (“mining”) can be done by anyone, even with just a mobile phone or Raspberry Pi.
+- QANplatform leverages the Proof-of-Randomness (PoR) consensus protocol which possesses inherent verifiable pseudorandomness. As a result of its streamlined consensus protocol, there is no need for complex mathematical computations that require large amounts of energy.
+- With QANplatform there are no unnecessary computing undertakings and thus no large amounts of electrical energy are needed, so the operation is eco-friendly. Within the QAN public blockchain (MainNet), block proposers are not selected based on the value of the stakes they committed. They are elected amongst themselves in a verifiably random manner, all without the possibility of tampering and manipulation.
+
+
+## How does consensus algorithm affect Transaction-per-Second (TPS)?
+- Transactions Per Second (TPS) denotes the quantity of transactions a blockchain network can process within a single second. It’s a measure of how fast and efficient the network is in processing a large volume of transactions simultaneously. The fastest blockchains achieve a high TPS number mostly by giving up blockchain technology’s key mission: decentralization.
+- The efficiency of financial markets can be improved by using a more efficient consensus algorithm that **reduces the time and resources required for transaction processing.
+- If a consensus algorithm involves a lot of computation or communication between nodes, it can slow down the addition of new transactions to the blockchain. By using a more efficient consensus algorithm, transactions can be processed faster and with less overhead, making the market more efficient and capable of handling a greater number of transactions.
+- **The speed of blockchain transactions depends on various factors, including the network architecture, consensus mechanism, block size, block time, and network congestion.**
+- These factors determine how transactions are validated and recorded, how frequently new blocks are created and added to the chain, and how much data each block can hold.
+- For instance, Bitcoin’s Proof-of-Work (PoW) consensus mechanism requires miners to compete and solve complex mathematical puzzles to create new blocks. This process is slow, energy-intensive, and limits the network to approximately ~7 TPS.
+- On the other hand, Ethereum’s Proof-of-Stake (PoS) consensus mechanism allows validators to stake their coins and vote on new blocks. This process is faster, more efficient, and enables the network to achieve around ~15 TPS. BNB Chain relies on a system of approximately 21–29 validators with Proof-of-Staked-Authority (PoSA) consensus, enabling a throughput of ~30 TPS.
+
+
+
+## How does consensus algorithm affect decentralization and security?
+- **Often, in order to increase the number of transactions processed per second (TPS) in blockchain networks, decentralization is typically compromised. Some networks employ methods like sharding or trusted validator nodes to increase TPS, but these approaches can introduce risks of centralization. When evaluating different blockchains, it’s important to consider the trade-offs between TPS and decentralization.**
+- Increasing TPS can impact the security and consensus mechanisms of a blockchain network. It’s crucial to assess the strength of the network’s consensus algorithm and security measures to ensure the reliability and integrity of transactions.
+- In order to achieve universal agreement in a decentralized consensus system, even in the presence of adversarial conditions and potential dishonest behavior, a fundamental challenge must be overcome. This challenge was famously described as the ***Byzantine Generals’ Problem in 1982.***
+- PoW is also susceptible to a “51% attack,” where malicious miners capture 51 percent of a network’s computing power or of the staked resources, gain control (dominance), and manipulate the blockchain to their advantage.
+- On the other hand, Proof-of-Stake (PoS) consensus faces notable challenge related to fault tolerance and stake distribution. The selection of validators is based on their stake in the network, which raises concerns for participants with smaller stakes. In fact, PoS has an inherent vulnerability: attackers can control the network by owning more than half of the stakes in the protocol.
 
 
 
