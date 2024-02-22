@@ -1,27 +1,11 @@
-
-
-
-
 # BLOCKCHAIN KEYWORDS
-
-
-
-
 
 1)	**Blockchain :** A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leaves). Since each block contains information about the previous block, they effectively form a chain (compare linked list data structure), with each additional block linking to the ones before it.
 
-
-
 2)	**Distributed Ledger :** A distributed ledger is the consensus of replicated, shared, and synchronized digital data that is geographically spread (distributed) across many sites, countries, or institutions. In contrast to a centralized database, a distributed ledger does not require a central administrator, and consequently does not have a single (central) point-of-failure.
-
-
 
 3)	**Records :** In computer science, a record (also called a structure, struct, or compound data) is a basic data structure. Records in a database or spreadsheet are usually called “rows”.
    A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. The fields of a record may also be called members, particularly in object-oriented programming; fields may also be called elements, though this risks confusion with the elements of a collection.
-
-
-
-
 
 5)	**Cryptographic Hashes:** A cryptographic hash function (CHF) is a hash algorithm that has special properties desirable for a cryptographic application:
    The probability of a particular -bit output result for a random input string (“message”) is , so the hash value can be used as a representative of the message;
@@ -29,14 +13,8 @@
   	A second preimage resistance strength, with the same expectations, refers to a similar problem of finding a second message that matches the given hash value when one message is already known.
   	Finding any pair of different messages that yield the same hash value is also unfeasible, a cryptographic hash is expected to have a collision resistance strength of  bits.
 
-
-
-
-
 5)	**Timestamp :** Trusted timestamping is the process of securely keeping track of the creation and modification time of a document. Security here means that no one—not even the owner of the document—should be able to change it once it has been recorded provided that the timestamper’s integrity is never compromised.
    The administrative aspect involves setting up a publicly available, trusted timestamp management infrastructure to collect, process and renew timestamps.
-
-
 
 7)	**Merkle Table :** In cryptography and computer science, a hash tree or Merkle tree is a tree in which every “leaf” (node) is labelled with the cryptographic hash of a data block, and every node that is not a leaf (called a branch, inner node, or inode) is labelled with the cryptographic hash of the labels of its child nodes. A hash tree allows efficient and secure verification of the contents of a large data structure. A hash tree is a generalization of a hash list and a hash chain.
 
@@ -519,9 +497,6 @@
 101)	**Finality :** Finality is the level of confidence that the well-formed block recently appended to the blockchain will not be revoked in the future (is “finalized”) and thus can be trusted. Most distributed blockchain protocols, whether proof of work or proof of stake, cannot guarantee the finality of a freshly committed block, and instead rely on “probabilistic finality”: as the block goes deeper into a blockchain, it is less likely to be altered or reverted by a newly found consensus.
 
 
-
-
-
 102)	**Probabilistic finality :**
 
 
@@ -540,16 +515,10 @@
 
 
 
-
-
 106)	**Slashing :**
 
 
-
 107)	**Openness :**
-
-
-
 
 
 108)	**MVCC (Multiversion Concurrency Control) :** Multiversion concurrency control (MCC or MVCC), is a non-locking concurrency control method commonly used by database management systems to provide concurrent access to the database and in programming languages to implement transactional memory.
@@ -565,9 +534,6 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 107)	**Transport layer :** In computer networking, the transport layer is a conceptual division of methods in the layered architecture of protocols in the network stack in the Internet protocol suite and the OSI model. The protocols of this layer provide end-to-end communication services for applications. It provides services such as connection-oriented communication, reliability, flow control, and multiplexing.
 
 
-
-
-
 108)	**Emailspam :** 
 
 
@@ -579,8 +545,6 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 
 
 111)	**Cynthia Dwork :** Cynthia Dwork is an American computer scientist best known for her contributions to cryptography, distributed computing, and algorithmic fairness. She is one of the inventors of differential privacy and proof-of-work.
-
-
 
 
 
@@ -599,9 +563,6 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 
 
 115)	**Venture Capital :** Venture capital (VC) is a form of private equity financing that is provided by firms or funds to startup, early-stage, and emerging companies that have been deemed to have high growth potential or which have demonstrated high growth. Venture capital firms or funds invest in these early-stage companies in exchange for equity, or an ownership stake. Venture capitalists take on the risk of financing risky start-ups in the hopes that some of the companies they support will become successful. Because startups face high uncertainty, VC investments have high rates of failure. The start-ups are usually based on an Innovative technology or business model and they are usually from high technology industries, such as information technology (IT), clean technology or biotechnology.
-
-
-
 
 
 116)	**Acces Control Layer (in Permissioned Blockchain) :** 
@@ -626,8 +587,6 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 
 
 
-
-
 123)	**Fiat :** Fiat money is a type of currency that is not backed by a commodity, such as gold or silver. It is typically designated by the issuing government to be legal tender, and is authorized by government regulation. Since the end of the Bretton Woods system in 1971, the major currencies in the world are fiat money.
 
 
@@ -637,11 +596,7 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 125)	**Monero :** Monero is a cryptocurrency which uses a blockchain with privacy-enhancing technologies to obfuscate transactions to achieve anonymity and fungibility. Observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
 
 
-
 126)	**Standards Australia :** Standards Australia is a standards organisation established in 1922 and is recognised through a Memorandum of Understanding (MoU) with the Australian government as the primary non-government standards development body in Australia. It is a company limited by guarantee. As of 1998, it had 73 members representing groups interested in the development and application of technical standards and related products and services. The MoU recognises Standards Australia as Australia’s representative on the International Organization for Standardization (ISO), the International Electrotechnical Commission (IEC) and the Pacific Area Standards Congress (PASC).
-
-
-
 
 
 127)	**International Organisations for  Standardisation (ISO) :** The International Organization for Standardization is an international standard development organization composed of representatives from the national standards organizations of member countries. Membership requirements are given in Article 3 of the ISO Statutes.
@@ -658,16 +613,11 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 
 
 
-
-
 131)	**International Federation of Surveyors :** International Federation of Surveyors is the UN-recognized global organization for the profession of surveying and related disciplines. It was established in 1878, and formed as a legal entity in 1999. As of August 2012 FIG has 106 member associations from 88 countries.
 
 
 
 132)	**International Telecommunication Union (ITU) :** The International Telecommunication Union (ITU) is a specialized agency of the United Nations responsible for many matters related to information and communication technologies. It was established on 17 May 1865 as the International Telegraph Union, significantly predating the UN and making it the oldest UN agency. Doreen Bogdan-Martin is the Secretary-General of ITU, the first woman to serve as its head.
-
-
-
 
 
 133)	**UNECE (United Nations EvinomCommission for Europe):** The United Nations Economic Commission for Europe is one of the five regional commissions under the jurisdiction of the United Nations Economic and Social Council. It was established in order to promote economic cooperation and integration among its member states.
@@ -677,17 +627,11 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 134)	**NIST (National Institute of Standards and Technology) :** The National Institute of Standards and Technology (NIST) is an agency of the United States Department of Commerce whose mission is to promote American innovation and industrial competitiveness. NIST’s activities are organized into physical science laboratory programs that include nanoscale science and technology, engineering, information technology, neutron research, material measurement, and physical measurement. From 1901 to 1988, the agency was named the National Bureau of Standards.
 
 
-
-
-
 135)	**CENELEC (European Committee for Electotechnical Standardization :** CENELEC is responsible for European standardization in the area of electrical engineering. Together with ETSI (telecommunications) and CEN, it forms the European system for technical standardization. Standards harmonised by these agencies are regularly adopted in many countries outside Europe which follow European technical standards. Although CENELEC works closely with the European Union, it is not an EU institution. Nevertheless, its standards are “EN” EU standards, thanks to EU Regulation 1025/2012.
 
 
 
 136)	**IEEE (Institute of Electrical &Electronics Engineers) :** The Institute of Electrical and Electronics Engineers (IEEE) is a 501©(3) professional association for electronics engineering, electrical engineering, and other related disciplines with its corporate office in New York City and its operations center in Piscataway, New Jersey. The IEEE was formed from the amalgamation of the American Institute of Electrical Engineers and the Institute of Radio Engineers in 1963.
-
-
-
 
 
 137)	**OASIS :** The Organization for the Advancement of Structured Information Standards is a nonprofit consortium that works on the development, convergence, and adoption of open standards for cybersecurity, blockchain, Internet of things (IoT), emergency management, cloud computing, legal data exchange, energy, content technologies, and other areas.
@@ -705,9 +649,6 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 140)	**Oracle 21c Database :** Oracle Database (commonly referred to as Oracle DBMS, Oracle Autonomous Database, or simply as Oracle) is a proprietary multi-model database management system produced and marketed by Oracle Corporation.
      It is a database commonly used for running online transaction processing (OLTP), data warehousing (DW) and mixed (OLTP & DW) database workloads. Oracle Database is available by several service providers on-prem, on-cloud, or as a hybrid cloud installation. It may be run on third party servers as well as on Oracle hardware (Exadata on-prem, on Oracle Cloud or at Cloud at Customer).
     	Oracle Database uses SQL query language for database updating and retrieval.
-
-
-
 
 
 142)	**Centralised Blockchain :*
@@ -737,18 +678,11 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 149)	**(Economic) Incentives :**  In general, incentives are anything that persuade a person to alter their behavior in the desired manner. It is emphasized that incentives matter by the basic law of economists and the laws of behavior, which state that higher incentives amount to greater levels of effort and therefore higher levels of performance.
 
 
-
-
-
 150)	**Proof of Stake :** Proof-of-stake (PoS) protocols are a class of consensus mechanisms for blockchains that work by selecting validators in proportion to their quantity of holdings in the associated cryptocurrency. This is done to avoid the computational cost of proof-of-work (POW) schemes. The first functioning use of PoS for cryptocurrency was Peercoin in 2012, although the scheme, on the surface, still resembled a POW.
 
 
 
 151)	**Private Blockchain :** A private blockchain is permissioned. One cannot join it unless invited by the network administrators. Participant and validator access is restricted. To distinguish between open blockchains and other peer-to-peer decentralized database applications that are not open ad-hoc compute clusters, the terminology Distributed Ledger (DLT) is normally used for private blockchains.
-
-
-
-
 
 152)	**Distributed Ledger :** A distributed ledger is the consensus of replicated, shared, and synchronized digital data that is geographically spread (distributed) across many sites, countries, or institutions. In contrast to a centralized database, a distributed ledger does not require a central administrator, and consequently does not have a single (central) point-of-failure.
 
@@ -757,16 +691,11 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 153)	**Hybrid Blockchain :** A hybrid blockchain has a combination of centralized and decentralized features. The exact workings of the chain can vary based on which portions of centralization and decentralization are used.
 
 
-
-
-
 154)	**Sidechains :** A sidechain is a designation for a blockchain ledger that runs in parallel to a primary blockchain. Entries from the primary blockchain (where said entries typically represent digital assets) can be linked to and from the sidechain; this allows the sidechain to otherwise operate independently of the primary blockchain (e.g., by using an alternate means of record keeping, alternate consensus algorithm, etc.).
 
 
 
 155)	**Consensus Algorithm :** A consortium blockchain is a type of blockchain that combines elements of both public and private blockchains. In a consortium blockchain, a group of organizations come together to create and operate the blockchain, rather than a single entity. The consortium members jointly manage the blockchain network and are responsible for validating transactions. Consortium blockchains are permissioned, meaning that only certain individuals or organizations are allowed to participate in the network. This allows for greater control over who can access the blockchain and helps to ensure that sensitive information is kept confidential.
-
-
 
 
 
@@ -802,8 +731,6 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 
 
 
-
-
 164)	**Bitcoin Protocol :** The Bitcoin protocol is the set of rules that govern the functioning of Bitcoin. Its key components and principles are: a peer-to-peer decentralized network with no central oversight; the blockchain technology, a public ledger that records all Bitcoin transactions; mining and proof of work, the process to create new bitcoins and verify transactions; and cryptographic security.
 
 
@@ -811,14 +738,8 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 165)	**Silk Road (in Blockchain /Computer Science) :** Silk Road was an online black market and the first modern darknet market. It was launched in 2011 by its American founder Ross Ulbricht under the pseudonym “Dread Pirate Roberts”. As part of the dark web, Silk Road operated as a hidden service on the Tor network, allowing users to buy and sell products and services between each other anonymously. All transactions were conducted with bitcoin, a cryptocurrency which aided in protecting user identities. The website was known for its illegal drug marketplace, among other illegal and legal product listings. Between February 2011 and July 2013, the site facilitated sales amounting to 9,519,664 Bitcoins.
 
 
-
-
-
 166)	**Tor :** Tor, short for The Onion Router, is free and open-source software for enabling anonymous communication. It directs Internet traffic via a free, worldwide, volunteer overlay network that consists of more than seven thousand relays.
      Using Tor makes it more difficult to trace a user’s Internet activity. Tor protects personal privacy by concealing a user’s location and usage from anyone performing network surveillance or traffic analysis. It protects the user’s freedom and ability to communicate confidentially through IP address anonymity using Tor exit nodes.
-
-
-
 
 
 167)	**National Digital Currency :** A central bank digital currency (CBDC; also called digital fiat currency or digital base money) is a digital currency issued by a central bank, rather than by a commercial bank. It is also a liability of the central bank and denominated in the sovereign currency, as is the case with physical banknotes and coins.
@@ -826,15 +747,10 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
     	There are two general models that CBDCs most commonly described as falling under: retail and wholesale. Retail CBDCs are designed for households and businesses to make payments for everyday transactions, while wholesale CBDCs are designed for financial institutions and operate similarly to central bank reserves. Other CBDC models have emerged as well over time. Most notably, the Federal Reserve proposed an intermediated CBDC in 2022. In this model, the central bank issues a sort of retail CBDC, but financial intermediaries offer customer services.
 
 
-
-
-
 168)	**Legality of cryptocurrency by country or territory :** The legal status of cryptocurrencies varies substantially from one jurisdiction to another, and is still undefined or changing in many of them. Whereas, in the majority of countries the usage of cryptocurrency isn’t in itself illegal, its status and usability as a means of payment varies, with differing regulatory implications.
 
 
-
 169)	**Smart Contact :** A smart contract is a computer program or a transaction protocol that is intended to automatically execute, control or document events and actions according to the terms of a contract or an agreement. The objectives of smart contracts are the reduction of need for trusted intermediators, arbitration costs, and fraud losses, as well as the reduction of malicious and accidental exceptions. Smart contracts are commonly associated with cryptocurrencies, and the smart contracts introduced by Ethereum are generally considered a fundamental building block for decentralized finance (DeFi) and NFT applications.
-
 
 
 170)	**Escrow :** An escrow is a contractual arrangement in which a third party receives and disburses money or property for the primary transacting parties, with the disbursement dependent on conditions agreed to by the transacting parties. Examples include an account established by a broker for holding funds on behalf of the broker’s principal or some other person until the consummation or termination of a transaction; or, a trust account held in the borrower’s name to pay obligations such as property taxes and insurance premiums. The word derives from the Old French word escroue, meaning a scrap of paper or a scroll of parchment; this indicated the deed that a third party held until a transaction was completed.
@@ -843,32 +759,19 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 
 171)	**Moral Hazard :** In economics, a moral hazard is a situation where an economic actor has an incentive to increase its exposure to risk because it does not bear the full costs of that risk. For example, when a corporation is insured, it may take on higher risk knowing that its insurance will pay the associated costs. A moral hazard may occur where the actions of the risk-taking party change to the detriment of the cost-bearing party after a financial transaction has taken place.
 
-
-
-
-
 172)	**Transaction Protocol :** The Transaction Protocol Data Unit (TPDU) is a packet-based protocol originally designed for financial transaction processing over an X.25 network. 
-
 
 
 173)	**Computer Program :** A computer program is a sequence or set of instructions in a programming language for a computer to execute. It is one component of software, which also includes documentation and other intangible components.
 
 
-
 174)	**Decentralised Finance (DeFi) :** Decentralized finance offers financial instruments without relying on intermediaries such as brokerages, exchanges, or banks by using smart contracts on a blockchain, mainly Ethereum. DeFi platforms allow people to lend or borrow funds from others, speculate on price movements on assets using derivatives, trade cryptocurrencies, insure against risks, and earn interest in savings-like accounts. DeFi uses a layered architecture and highly composable building blocks. Some applications promote high-interest rates but are subject to high risk. Coding errors and hacks have been common in DeFi.
-
-
-
 
 
 175)	**NFT (Non -Fungible Token) :** A non-fungible token (NFT) is a unique digital identifier that is recorded on a blockchain, and is used to certify ownership and authenticity. It cannot be copied, substituted, or subdivided. The ownership of an NFT is recorded in the blockchain and can be transferred by the owner, allowing NFTs to be sold and traded. NFTs can be created by anybody, and require few or no coding skills to create. NFTs typically contain references to digital files such as artworks, photos, videos, and audio. Because NFTs are uniquely identifiable, they differ from cryptocurrencies, which are fungible.
 
 
-
 176)	**White Paper :** A white paper is a report or guide that informs readers concisely about a complex issue and presents the issuing body’s philosophy on the matter. It is meant to help readers understand an issue, solve a problem, or make a decision. A white paper is the first document researchers should read to better understand a core concept or idea. Since the 1990s, this type of document has proliferated in business. Today, a business-to-business (B2B) white paper is closer to a marketing presentation, a form of content meant to persuade customers and partners and promote a certain product or viewpoint. That makes B2B white papers a type of grey literature.
-
-
-
 
 
 177)	**Vitalik Buttering :** Vitaly Dmitrievich Buterin, better known as Vitalik Buterin, is a Russian-Canadian computer programmer, and co-founder of Ethereum. Buterin became involved with cryptocurrency early in its inception, co-founding Bitcoin Magazine in 2011. In 2014, Buterin deployed the Ethereum blockchain with Gavin Wood, Charles Hoskinson, Anthony Di Iorio, and Joseph Lubin.
@@ -878,27 +781,15 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 178)	**Nick Szabo :**  Nicholas Szabo is a computer scientist, legal scholar, and cryptographer known for his research in digital contracts and digital currency. He graduated from the University of Washington in 1989 with a degree in computer science and received a Juris Doctor degree from George Washington University Law School. He holds an honorary professorship at the Universidad Francisco Marroquín.
 
 
-
-
-
 179)	**Solidity :** Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum. Solidity is licensed under GNU General Public License v3.0. Solidity was designed by Gavin Wood and developed by Christian Reitwiessner, Alex Beregszaszi, and several former Ethereum core contributors. Programs in Solidity run on Ethereum Virtual Machine or on compatible virtual machines.
-
-
 
 180)	**Turning Complete :** In computability theory, a system of data-manipulation rules is said to be Turing-complete or computationally universal if it can be used to simulate any Turing machine. This means that this system is able to recognize or decide other data-manipulation rule sets. Turing completeness is used as a way to express the power of such a data-manipulation rule set. Virtually all programming languages today are Turing-complete.
 
 
 
-
-
 181)	**Distributed ledger technology law :** Distributed ledger technology law is not yet defined and recognized but an emerging field of law due to the recent dissemination of distributed ledger technology application in business and governance environment. Smart contracts, which are also enforceable legal contracts and were created through interaction of lawyers and developers, are called smart legal contracts.
 
-
-
 182)	**Automated :** Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines. Automation has been achieved by various means including mechanical, hydraulic, pneumatic, electrical, electronic devices, and computers, usually in combination. Complicated systems, such as modern factories, airplanes, and ships typically use combinations of all of these techniques. The benefit of automation includes labor savings, reducing waste, savings in electricity costs, savings in material costs, and improvements to quality, accuracy, and precision.
-
-
-
 
 
 183)	**IMF (International Monetary Fund) :** The International Monetary Fund (IMF) is a major financial agency of the United Nations, and an international financial institution funded by 190 member countries, with headquarters in Washington, D.C. It is regarded as the global lender of last resort to national governments, and a leading supporter of exchange-rate stability. Its stated mission is “working to foster global monetary cooperation, secure financial stability, facilitate international trade, promote high employment and sustainable economic growth, and reduce poverty around the world.” Established on December 27, 1945 at the Bretton Woods Conference, primarily according to the ideas of Harry Dexter White and John Maynard Keynes, it started with 29 member countries and the goal of reconstructing the international monetary system after World War II. It now plays a central role in the management of balance of payments difficulties and international financial crises. Through a quota system, countries contribute funds to a pool from which countries can borrow if they experience balance of payments problems. As of 2016, the fund had SDR 477 billion.
@@ -906,10 +797,6 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 
 
 184)	**IBM (International Business Machines Corporation) :** The International Business Machines Corporation, nicknamed Big Blue, is an American multinational technology corporation headquartered in Armonk, New York and is present in over 175 countries. It specializes in computer hardware, middleware, and software, and provides hosting and consulting services in areas ranging from mainframe computers to nanotechnology. IBM is the largest industrial research organization in the world, with 19 research facilities across a dozen countries, and held the record for most annual U.S. patents generated by a business for 29 consecutive years from 1993 to 2021.
-
-
-
-
 
 185)	**UBS (have research lab dedicated to research lab blockchain) :** UBS Group AG is a multinational investment bank and financial services company founded and based in Switzerland. Headquartered in Zürich, it maintains a presence in all major financial centres as the largest Swiss banking institution and the largest private bank in the world. UBS client services are known for their strict bank–client confidentiality and culture of banking secrecy. Because of the bank’s large positions in the Americas, EMEA, and Asia Pacific markets, the Financial Stability Board considers it a global systemically important bank.
 
@@ -922,9 +809,6 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 187)	**Initial Coin Offering (ICOs) /Security Token Offerings (STO) / Digital Security Offering (DSOs) :** An initial coin offering (ICO) or initial currency offering is a type of funding using cryptocurrencies. It is often a form of crowdfunding, although a private ICO which does not seek public investment is also possible. In an ICO, a quantity of cryptocurrency is sold in the form of “tokens” (“coins”) to speculators or investors, in exchange for legal tender or other cryptocurrencies such as Bitcoin or Ether. The tokens are promoted as future functional units of currency if or when the ICO’s funding goal is met and the project successfully launches.
 
 
-
-
-
 188)	**Tokenization :** Tokenization, when applied to data security, is the process of substituting a sensitive data element with a non-sensitive equivalent, referred to as a token, that has no intrinsic or exploitable meaning or value. The token is a reference that maps back to the sensitive data through a tokenization system. The mapping from original data to a token uses methods that render tokens infeasible to reverse in the absence of the tokenization system, for example using tokens created from random numbers. A one-way cryptographic function is used to convert the original data into tokens, making it difficult to recreate the original data without obtaining entry to the tokenization system’s resources. To deliver such services, the system maintains a vault database of tokens that are connected to the corresponding sensitive data. Protecting the system vault is vital to the system, and improved processes must be put in place to offer database integrity and physical security.
 
 
@@ -932,28 +816,16 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 189)	**Video Game Monetization :** Video game monetization is a type of process that a video game publisher can use to generate revenue from a video game product. The methods of monetization may vary between games, especially when they come from different genres or platforms, but they all serve the same purpose to return money to the game developers, copyright owners, and other stakeholders. As the monetization methods continue to diversify, they also affect the game design in a way that sometimes leads to criticism.
 
 
-
-
-
 190)	**Live -Service Games :** In the video game industry, games as a service (GaaS) represents providing video games or game content on a continuing revenue model, similar to software as a service. Games as a service are ways to monetize video games either after their initial sale, or to support a free-to-play model. Games released under the GaaS model typically receive a long or indefinite stream of monetized new content over time to encourage players to continue paying to support the game. This often leads to games that work under a GaaS model to be called “living games”, “live games”, or “live service games” since they continually change with these updates.
-
 
 
 191)	**Grey Market :** A grey market or dark market is the trade of a commodity through distribution channels that are not authorized by the original manufacturer or trade mark proprietor. Grey market products are products traded outside the authorized manufacturer’s channel.
 
 
-
-
-
 192)	**Skin Gambling :** In video games, skin gambling is the use of virtual goods, often cosmetic in-game items such as “skins”, as virtual currency to bet on the outcome of professional matches or on other games of chance. It is commonly associated with the community surrounding Counter-Strike: Global Offensive, but the practice exists in other games such as Electronic Arts’s FIFA. Valve, the developer of Global Offensive, also runs the Steam marketplace which can be interfaced by third-parties to enable trading, buying, and selling of skins from players’ Steam inventories for real-world or digital currency. Valve condemns the gambling practices as it violates the platform’s terms of service.
 
 
-
 193)	**CryptoKitties :** CryptoKitties is a blockchain game developed by Canadian studio Dapper Labs. The game allows players to buy, sell, and create NFTs using on Ethereum. These NFTs represent virtual cats. The game’s popularity in December 2017, congested the Ethereum network, causing it to reach an all-time high in the number of transactions and slowing it down significantly.
-
-
-
-
 
 194)	**Virtual Pet :** A virtual pet is a type of artificial human companion. They are usually kept for companionship or enjoyment, as people may choose to keep a digital pet instead of a real one.
 
@@ -962,14 +834,9 @@ When an MVCC database needs to update a piece of data, it will not overwrite the
 195)	**Axie Infinity :** Axie Infinity is a blockchain game developed by Vietnamese studio Sky Mavis, known for its in-game economy which uses Ethereum-based cryptocurrencies. It has been called 'a pyramid scheme that relies on cheap labor from countries like the Philippines to fuel its growth.’
 
 
-
-
-
 196)	**Metaverse :** The metaverse is a loosely defined term referring to three-dimensional virtual worlds in which users represented by avatars interact.
      The term metaverse originated in the 1992 science fiction novel Snow Crash as a portmanteau of “meta” and “universe”. In Snow Crash, the metaverse is envisioned as a hypothetical iteration of the Internet as a single, universal, and immersive virtual world that is facilitated by the use of virtual reality (VR) and augmented reality (AR) headsets.
 Metaverse development is often linked to advancing virtual reality technology, and recent interest is influenced by Web3, a concept for a decentralized iteration of the internet.
-
-
 
 
 
@@ -982,14 +849,8 @@ Metaverse development is often linked to advancing virtual reality technology, a
 199)	**Electronic Arts :** Electronic Arts Inc. (EA) is an American video game company headquartered in Redwood City, California. Founded in May 1982 by Apple employee Trip Hawkins, the company was a pioneer of the early home computer game industry and promoted the designers and programmers responsible for its games as “software artists”. EA published numerous games and some productivity software for personal computers, all of which were developed by external individuals or groups until 1987’s Skate or Die!. The company shifted toward internal game studios, often through acquisitions, such as Distinctive Software becoming EA Canada in 1991.
 
 
-
-
-
 200)	**Take Two Interactive :** Take-Two Interactive Software, Inc. is an American video game holding company based in New York City founded by Ryan Brant in September 1993.
      The company owns two major publishing labels, Rockstar Games and 2K, which operate internal game development studios. Take-Two created the Private Division label to support publishing from independent developers and more recently announced a new internal studio for the label called Intercept Games. The company also formed Ghost Story Games which was a former 2K studio under the name Irrational Games. The company acquired the developers Socialpoint, Playdots and Nordeus to establish itself in the mobile game market. The company also owns 50% of professional esports organization NBA 2K League. Take-Two’s combined portfolio includes franchises such as BioShock, Borderlands, Grand Theft Auto, NBA 2K, WWE 2K, and Red Dead among others.
-
-
-
 
 
 201)	**Valve Corporation :** Valve Corporation, also known as Valve Software, is an American video game developer, publisher, and digital distribution company headquartered in Bellevue, Washington. It is the developer of the software distribution platform Steam and the game franchises Half-Life, Counter-Strike, Portal, Day of Defeat, Team Fortress, Left 4 Dead, and Dota.
@@ -999,17 +860,11 @@ Metaverse development is often linked to advancing virtual reality technology, a
 202)	**Steam (Digital StoreFront Service) :** Steam is a video game digital distribution service and storefront developed by Valve Corporation. It was launched as a software client in September 2003 to provide game updates automatically for Valve’s games, and expanded to distributing third-party titles in late 2005. Steam offers various features, like game server matchmaking with Valve Anti-Cheat measures, social networking, and game streaming services. Steam client’s functions include game update automation, cloud storage for game progress, and community features such as direct messaging, in-game overlay functions and a virtual collectable marketplace.
 
 
-
-
-
 203)	**Epic Games :** Epic Games, Inc. is an American video game and software developer and publisher based in Cary, North Carolina. The company was founded by Tim Sweeney as Potomac Computer Systems in 1991, originally located in his parents’ house in Potomac, Maryland. Following its first commercial video game release, ZZT (1991), the company became Epic MegaGames, Inc. in early 1992 and brought on Mark Rein, who has been its vice president since. After moving the headquarters to Cary in 1999, the studio changed its name to Epic Games.
 
 
 
 204)	**Epic Games Store :** The Epic Games Store is a video game digital distribution service and storefront operated by Epic Games. It launched in December 2018 as a software client, for Microsoft Windows and macOS, and online storefront. The service provides friends list management, game matchmaking, and other features. Epic Games has further plans to expand the feature set of the storefront but it does not plan to add as many features as other digital distribution platforms, such as discussion boards or user reviews, instead using existing social media platforms to support these.
-
-
-
 
 
 205)	**Precious Commodities Mining :** Blockchain technology has been used for tracking the origins of gemstones and other precious commodities. In 2016, The Wall Street Journal reported that the blockchain technology company Everledger was partnering with IBM’s blockchain-based tracking service to trace the origin of diamonds to ensure that they were ethically mined. As of 2019, the Diamond Trading Company (DTC) has been involved in building a diamond trading supply chain product called Tracer.
@@ -1029,11 +884,7 @@ Metaverse development is often linked to advancing virtual reality technology, a
 209)	**Food supply —** As of 2018, Walmart and IBM were running a trial to use a blockchain-backed system for supply chain monitoring for lettuce and spinach — all nodes of the blockchain were administered by Walmart and were located on the IBM cloud.
 
 
-
-
-
 210)	**Cloud :** Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
-
 
 
 211)	**Mercedes-Benz :** Mercedes-Benz, commonly referred to as Mercedes and sometimes as Benz, is a German luxury and commercial vehicle automotive brand established in 1926. Mercedes-Benz AG is headquartered in Stuttgart, Baden-Württemberg, Germany. Mercedes-Benz AG produces consumer luxury vehicles and light commercial vehicles badged as Mercedes-Benz. From November 2019 onwards, Mercedes-Benz-badged heavy commercial vehicles are managed by Daimler Truck, a former part of the Mercedes-Benz Group turned into an independent company in late 2021. In 2018, Mercedes-Benz was the largest brand of premium vehicles in the world, having sold 2.31 million passenger cars.
@@ -1094,12 +945,7 @@ Metaverse development is often linked to advancing virtual reality technology, a
 
 226)	**Cryptocurrency Wallet :** A cryptocurrency wallet is a device, physical medium, program or an online service which stores the public and/or private keys for cryptocurrency transactions. In addition to this basic function of storing the keys, a cryptocurrency wallet more often offers the functionality of encrypting and/or signing information. Signing can for example result in executing a smart contract, a cryptocurrency transaction, identification, or legally signing a ‘document’.
 
-
-
 227)	**ASCAP : (Blockchain with IBM &PRS for Music) :** The American Society of Composers, Authors, and Publishers (ASCAP) is an American not-for-profit performance-rights organization (PRO) that collectively licenses the public performance rights of its members’ musical works to venues, broadcasters, and digital streaming services.
-
-
-
 
 
 228)	**PRS for Music : ( Blockchain with IBM & ASCAP)  :** PRS for Music Limited is a British music copyright collective, made up of two collection societies: the Mechanical-Copyright Protection Society (MCPS) and the Performing Right Society (PRS). It undertakes collective rights management for musical works on behalf of its 160,000 members. PRS for Music was formed in 1997 following the MCPS-PRS Alliance. In 2009, PRS and MCPS-PRS Alliance realigned their brands and became PRS for Music.
@@ -1216,8 +1062,6 @@ Metaverse development is often linked to advancing virtual reality technology, a
 
 254)	**Cambridge University :** The University of Cambridge is a public collegiate research university in Cambridge, England. Founded in 1209, the University of Cambridge is the world’s third-oldest university in continuous operation. The university’s founding followed the arrival of scholars who left the University of Oxford for Cambridge after a dispute with local townspeople. The two ancient English universities, although sometimes described as rivals, share many common features and are often jointly referred to as Oxbridge. In 1231, 22 years after its founding, the university was recognised with a royal charter, granted by King Henry III.
 
-
-
 255)	**Bill Gates :** William Henry Gates III is an American businessman, investor, philanthropist, and writer best known for co-founding the software giant Microsoft, along with his childhood friend Paul Allen. During his career at Microsoft, Gates held the positions of chairman, chief executive officer (CEO), president, and chief software architect, while also being its largest individual shareholder until May 2014. He was a prominent pioneer of the microcomputer revolution of the 1970s and 1980s.
 
 
@@ -1226,16 +1070,11 @@ Metaverse development is often linked to advancing virtual reality technology, a
 
 
 
-
-
 257)	**International Computer Science Institute (ICSI) :** The International Computer Science Institute (ICSI) is an independent, non-profit research organization located in Berkeley, California, United States. Since its founding in 1988, ICSI has maintained an affiliation agreement with the University of California, Berkeley, where several of its members hold faculty appointments.
 
 
 
 258)	**University of California Berkeley :** The University of California, Berkeley, is a public land-grant research university in Berkeley, California. It was established in 1868 and is the state’s first land-grant university and the founding campus of the University of California system. Berkeley has been regarded as one of the top universities in the world with the most top-ranked departments nationally and more companies founded by undergraduate alumni than any other university worldwide. Berkeley has the fourth most Nobel Prize associations for any academic or research institution.
-
-
-
 
 
 259)	**Energy Consumption of Blockchain :** In 2021, a study by Cambridge University determined that Bitcoin (at 121 terawatt-hours per year) used more electricity than Argentina (at 121TWh) and the Netherlands (109TWh). According to Digiconomist, one bitcoin transaction required 708 kilowatt-hours of electrical energy, the amount an average U.S. household consumed in 24 days.
@@ -1247,14 +1086,9 @@ Metaverse development is often linked to advancing virtual reality technology, a
 
 
 
-262)	**Massachusetts Institute of Technology (MIT) :** The Massachusetts Institute of Technology (MIT) is a private land-grant research university in Cambridge, Massachusetts. Established in 1861, MIT has played a significant role in the development of many areas of modern technology and science
-
-
+262)	**Massachusetts Institute of Technology (MIT) :** The Massachusetts Institute of Technology (MIT) is a private land-grant research university in Cambridge, Massachusetts. Established in 1861, MIT has played a significant role in the development of many areas of modern technology and science.
 
 263)	**Catalini :** Christian Catalini is a co-creator of Diem, the Chief Economist of the Diem Association, and the Theodore T. Miller Professor at the MIT Sloan School of Management.
-
-
-
 
 
 264)	**Tucker :** Catherine Tucker is the Sloan Distinguished Professor of Management at MIT Sloan, where she is also chair of the PhD program. She is known for her research into the consequences of digital data for electronic privacy, algorithmic bias, digital health, social media and online advertising. She is also a research associate at the NBER, cofounder of the Cryptoeconomics lab at MIT with Christian Catalini and coeditor at Quantitative Marketing Economics.
@@ -1266,9 +1100,6 @@ Metaverse development is often linked to advancing virtual reality technology, a
 
 
 266)	**University of Edinburgh : (first European Unito launch Blockchain Course) :** The University of Edinburgh is a public research university based in Edinburgh, Scotland. Founded by the town council under the authority of a royal charter of King James VI in 1582 and officially opened in 1583, it is one of Scotland’s four ancient universities and the sixth-oldest university in continuous operation in the English-speaking world. The university played an important role in Edinburgh becoming a chief intellectual centre during the Scottish Enlightenment and contributed to the city being nicknamed the “Athens of the North.”
-
-
-
 
 
 267)	**Innovation Adaptation (Diffusion of innovations):** Diffusion of innovations is a theory that seeks to explain how, why, and at what rate new ideas and technology spread. The theory was popularized by Everett Rogers in his book Diffusion of Innovations, first published in 1962. Rogers argues that diffusion is the process by which an innovation is communicated thorough certain channels over time among the participants in a social system. The origins of the diffusion of innovations theory are varied and span multiple disciplines.
@@ -1283,22 +1114,18 @@ Metaverse development is often linked to advancing virtual reality technology, a
 
 269)	**American Institute of Certified Public Accountants :** The American Institute of Certified Public Accountants (AICPA) is the national professional organization of Certified Public Accountants (CPAs) in the United States, with more than 428,000 members in 130 countries. Founded in 1887 as the American Association of Public Accountants (AAPA), the organization sets ethical standards and U.S. auditing standards. It also develops and grades the Uniform CPA Examination. The AICPA maintains offices in New York City; Washington, DC; Durham, NC; and Ewing, NJ.
 
-
-
 270)	**Ledger :** Ledger is the first peer-reviewed academic journal dedicated to cryptocurrency and blockchain technology research. The journal covers topics that relate to cryptocurrencies such as bitcoin. This includes aspects of mathematics, computer science, engineering, law, economics and philosophy. The focus according to Wilmer is “blockchain technology research.” It is funded by Coin Center, a nonprofit.
-
-
-
 
 
 271)	**Filehash (Hash Function):** A hash function is any function that can be used to map data of arbitrary size to fixed-size values, though there are some hash functions that support variable length output. The values returned by a hash function are called hash values, hash codes, hash digests, digests, or simply hashes. The values are usually used to index a fixed-size table called a hash table. Use of a hash function to index a hash table is called hashing or scatter storage addressing.
 
 
-
 272)	**Digitally Sign :** A digital signature is a mathematical scheme for verifying the authenticity of digital messages or documents. A valid digital signature on a message gives a recipient confidence that the message came from a sender known to the recipient.
 
 
-
-
-
 273)	**Timestamped :** Trusted timestamping is the process of securely keeping track of the creation and modification time of a document. Security here means that no one—not even the owner of the document—should be able to change it once it has been recorded provided that the timestamper’s integrity is never compromised.
+274) **Transaction Families -** Smart contracts in Hyperledger Sawtooth. They define the operations that can be applied to transactions. Transaction families consist of both transaction processors (the server-side logic) and clients (for use from web or mobile applications).
+
+275) **Turing-Complete -** Named after Alan Turing, an English mathematician and computer scientist, it refers to a computer that can solve any problem that a Turing Machine can. A Turing Machine is a machine that can simulate any computer algorithm, no matter how complicated. Bitcoin scripting language is not Turing-Complete, as there are no looping and branching types of computing sequences. Ethereum's Solidity language is considered Turing-Complete, as it does have looping and branching.  
+
+276) **World State -** It consists of facts (populated fields) about the current state of the Universe of Discourse as agreed by the blockchain network community. This could be in regard to anything, not just monetary assets. The World State changes after each block that is added to the Blockchain (exception - in Hyperledger Fabric, if a block consists of only invalid transactions, there is no new state after adding such a block to the blockchain).
