@@ -568,6 +568,79 @@ A data storage technique that compresses or packs data for tamper-free storage o
 
 
 ### Immutability 
+- Changing the transactions in a blockchain is extremely hard because each block is linked to the previous block by including the previous block's hash. This hash includes the Merkle root hash of all the transactions in the previous block.
+- If a single transaction were to change, not only would the Merkle root hash change, but so too would the hash contained in the changed block.
+- In addition, each subsequent block would need to be updated to reflect this change.
+- In the case of proof of work, the amount of energy required to recalculate the nonce for this block and each subsequent block would be prohibitive.
+- On the other hand, if someone did modify a transaction in a block without going through the necessary steps to update the subsequent blocks, it would be easy to recalculate the hashes used in the blocks and determine that something is amiss(not suitable).
+- The following diagram shows the original blocks and the transactions for Block 11. Specifically, we see that the Merkle root for the transactions in Block 11 is Hash #ABCD, which is the combined hash for the four transactions in this block. Now, let's say that someone comes in and attempts to change Transaction A to Transaction A'. This, in turn, modifies the hashes that are stored in the Merkle tree, and the Merkle root changes to Hash #A'BCD. In addition, the Previous Block hash stored in Block 12 also needs to be modified to reflect the overall change in the hash for Block 11.
+
+![LFS171x_2023_CourseImages-08](https://github.com/Sourabh-Kumar04/Blockchain-concepts/assets/155216316/f03f3fa1-907a-4c25-8f03-160ec1d022cd)
+
+                 How a Changed Transaction Affects the Blockchain
+
+
+## Timestamping
+- Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this time-stamped chain of blocks provides an immutable record of all transactions in the network from the very first (or genesis) block.
+
+![LFS171x_2023_CourseImages-09](https://github.com/Sourabh-Kumar04/Blockchain-concepts/assets/155216316/adcb1534-b4db-4483-8651-5a6f4b826ac5)
+                 Components of a Block
+
+- A block typically contains four essential metadata components:
+  1. A reference to the preceding block
+  2. A proof of work (also referred to as a nonce)
+  3. A timestamp
+  4. The Merkle tree root (a hash representing the transactions included in the block)
+ 
+
+
+
+## Stages of a Blockchain Transaction
+A blockchain transaction can be described as the process of transferring digital assets from one party to another within the blockchain network. The transaction process comprises several stages:
+1.Transaction Creation
+2. Transaction Validation
+3. Transaction Confirmation and Block Creation
+4. Block Addition
+
+![LFS171x_2023_CourseImages-10](https://github.com/Sourabh-Kumar04/Blockchain-concepts/assets/155216316/8998061a-0a23-4c34-8568-970aba152a53)
+                       A Blockchain Transaction
+
+#### Stage 1: Transaction 
+- The user initiates a transfer of a digital asset to another user.
+- By utilizing their private key, the user generates a public address or identifier and specifies the amount to be sent to the recipient's public address.A transaction fee is included as an incentive for node operators or validators.
+- The user then signs the transaction message using their private key, creating a digital signature that confirms their ownership of the assets and their intention to transfer them.
+- Finally, the signed transaction is broadcasted to the entire blockchain network.
+
+
+#### Stage 2: Transaction Validation
+- Once the transaction is broadcasted, the nodes (computers) within the network start validating it.
+- The first step is to ensure that the digital signature is valid, confirming that the sender indeed owns the assets and has authorized the transaction.
+- The nodes also verify that the sender has enough balance in their digital wallet to cover the transaction amount and the associated fee.
+- Additionally, the nodes check for **"double-spending,"** a scenario where a user attempts to spend the same digital assets twice.
+- If the transaction passes all the validation checks, it is considered valid and is added to a pool of unconfirmed transactions.
+
+
+#### Stage 3: Transation Confirmation and Block Creation
+- **In most blockchains, transactions are grouped together into data structures called "blocks" before being added to the blockchain.**
+- ***The process of creating a new block is called mining (in Proof-of-Work-based blockchains) or validation (in Proof-of-Stake-based blockchains).***
+
+
+#### Stage 4: Block Addition
+- Once a new block is created, it is broadcasted to the network, where the nodes verify its validity.
+- If the block is deemed valid, it is added to the blockchain, linking to the previous block in the chain using the hashing technique described above.
+- This process ensures that the value is transferred, and transaction data stored in the blockchain is tamper-resistant and maintains a chronological record of all transactions, Zohar (2015).
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
