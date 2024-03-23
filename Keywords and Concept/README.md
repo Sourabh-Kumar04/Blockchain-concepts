@@ -12,7 +12,7 @@ nodes participating in a network.
 
 
 ## Why Blockchain??
-- DEcentralised
+- Decentralised
 - Tokenisation
 - Smart contracts
 - Transpancy
